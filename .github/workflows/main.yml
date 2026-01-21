@@ -12,7 +12,7 @@ jobs:
 
       # --- FASE 2: INTEGRACIÓN CONTINUA (CI) ---
       - name: FASE 2 - Dar permisos de ejecución
-        run: chmod +x app.sh # Comando Linux para hacer el script ejecutable
+        run: chmod +x app # Comando Linux para hacer el script ejecutable
       - name: Ejecutar Pruebas (Test)
         run: |
           ./app
